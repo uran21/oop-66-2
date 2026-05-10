@@ -29,9 +29,9 @@ class Assasin(Hero):
     def attack(self):
         return "Ассасин атакует из-под тишка"
 
-Gimli = Warrior(name="Gimli", level=1, health=100, strength=10)
-Doremor =Mage(name="Doremor", level=1, health=100, strength=10)
-Wane=Assasin(name="Wane", level=1, health=100, strength=10)
+Gimli = Warrior(name="Gimli", level=4, health=100, strength=10)
+Doremor =Mage(name="Doremor", level=2, health=102, strength=10)
+Wane=Assasin(name="Wane", level=1, health=110, strength=10)
 
 print(Gimli.greet())
 print(Doremor.greet())
